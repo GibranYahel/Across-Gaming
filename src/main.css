@@ -1,0 +1,10 @@
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #AEBDCA;
+    /* background-image: url('src/assets/GRASS_Negro.png'); */
+    transition: all 3ms ease;
+    color: black;
+    scroll-behavior: smooth;
+}

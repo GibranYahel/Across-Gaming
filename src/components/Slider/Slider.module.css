@@ -1,0 +1,44 @@
+.sContainer{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+.cardImg h1{
+    font-size: 1rem;
+    color: white;
+}
+
+.cardImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sContainer .card .cardInfo{
+    color: white;
+}
+
+.card{
+    border: 1px solid #181D31;
+    background: #181D31;
+    border-radius: 8px;
+    overflow: hidden;
+
+    height: 450px;
+}
+
+.card:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+    
+}
+
+.tittle h1 {
+    left: 100px;
+    position: inherit;
+    font-size: 3rem;
+}
+
+

@@ -1,0 +1,55 @@
+.container{
+    padding: 1.5rem;
+    display: flex;
+    color: var(--black);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 1.5rem;
+}
+
+.logo>img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.logo>span{
+    font-weight: 900;
+}
+
+.loopa{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.right{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+    list-style: none;
+}
+
+.menu>li:hover{
+    color: #EAEAEA;
+    cursor: pointer;
+}
+
+.search{
+    width: 7rem;
+    outline: none;
+    height: 30%;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
