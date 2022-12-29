@@ -25,6 +25,7 @@
     background: #181D31;
     border-radius: 8px;
     overflow: hidden;
+    
 
     height: 450px;
 }
@@ -41,4 +42,6 @@
     font-size: 3rem;
 }
 
+.hrSlider {
+}
 

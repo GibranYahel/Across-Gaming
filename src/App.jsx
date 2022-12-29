@@ -1,16 +1,34 @@
 import './App.css'
-import { Header } from './components/header/Header';
-import { SliderTop } from './components/Slider/Slide';
-import { Virtual } from './components/Virtual/Virtual';
+import { 
+  Routes,
+  Route,
+  BrowserRouter as Router,
+} from 'react-router-dom';
+import { Home } from './pages/Home';
+import { Partners } from './pages/Partners';
+import { Perfil } from './pages/Perfil';
+import { Productos } from './pages/Productos';
+import { Registrate } from './pages/Registrate';
+import { Social } from './pages/Social';
+import { Clicktester } from './pages/Clicktester';
+
 
 function App() {
   return (
-    <div className='App'>
-      <Header />
-      <SliderTop />
-      <Virtual />
-      
-    </div>
+    <Router>
+      <div className='App'>
+        <Routes>
+          <Route path="/" element={ <Home /> }/>
+          <Route path="/partners" element={ <Partners /> }/>
+          <Route path="/perfil" element={ <Perfil /> }/>
+          <Route path="/productos" element={ <Productos /> }/>
+          <Route path="/registrate" element={ <Registrate /> }/>
+          <Route path="/social" element={ <Social /> }/>
+          <Route path="/clicktester" element={ <Clicktester /> }/>
+
+        </Routes>
+      </div>
+    </Router>
   );
   }
 

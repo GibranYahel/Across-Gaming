@@ -41,6 +41,7 @@
 .right{
     width: 500px;
     height: 350px;
+    box-shadow: 3px 3px 23px 3px black;
 }
 
 .right img {

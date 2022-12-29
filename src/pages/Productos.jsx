@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Productos = () => {
   return (
-    <div>Productos</div>
+    <div><h1>MODULO DE PRODUCTOS</h1></div>
   )
 }

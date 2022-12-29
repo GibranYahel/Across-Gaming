@@ -1,0 +1,61 @@
+.NavDesplegable img{
+    width: 30px;
+    height: 30px;
+}
+
+.NavDesplegable {
+    width: 10%;
+    max-width: 1000px;
+    margin: auto;
+    position: sticky;
+    justify-content: center;
+    transition: width 0.5s;
+}
+
+.NavDesplegable:hover{
+    width: 15%;
+  
+}
+
+nav {
+    position: relative;
+    background-color: black;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav > ul > li {
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    padding-left: 450px;
+}
+
+nav > ul > li:hover div{
+    display: table;
+}
+
+/* Submenu */
+
+nav ul li div {
+    width: 100px;
+    position: absolute;
+    left: -125px;
+    background: #ccc;
+    box-sizing: border-box;
+    display: none;
+    border-radius: 20px;
+    
+}

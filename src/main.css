@@ -8,3 +8,9 @@ body{
     color: black;
     scroll-behavior: smooth;
 }
+
+hr {
+    border: 1px solid black;
+    border-radius: 1px;
+    width: 80%;
+}

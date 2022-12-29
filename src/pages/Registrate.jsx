@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Registrate = () => {
   return (
-    <div>Registrate</div>
+    <div><h1>PAGINA DE REGISTRO</h1></div>
   )
 }

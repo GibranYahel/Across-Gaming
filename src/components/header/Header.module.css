@@ -53,3 +53,13 @@
     border-radius: 5px;
     padding: 0.5rem;
 }
+
+.right img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.right img:hover {
+    cursor: pointer;
+}

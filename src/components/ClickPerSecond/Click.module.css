@@ -1,0 +1,16 @@
+.OnClicks button {
+    width: 500px;
+    height: 500px;
+}
+
+.OnClicks {
+    justify-content: center;
+}
+
+.OnClicks .TesterContainer {
+    margin: 6rem 40%;
+}
+
+.OnClicks .TesterContainer h1{
+    width: 450px;
+}

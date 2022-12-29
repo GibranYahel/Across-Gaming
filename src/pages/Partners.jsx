@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Partners = () => {
   return (
-    <div>Partners</div>
+    <div><h1>HOLA MUNDO!!</h1></div>
   )
 }

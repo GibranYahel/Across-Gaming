@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Social = () => {
   return (
-    <div>Social</div>
+    <div><h1>INTRODUCCION A SOCIAL</h1></div>
   )
 }
