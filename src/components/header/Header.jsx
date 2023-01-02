@@ -4,19 +4,26 @@ import LOGO2 from '../../assets/LOGO2.png'
 import { Link, Outlet } from 'react-router-dom'
 import FPerfil from '../../assets/imagen-minecraft.jpg'
 import { DropDownProfile } from '../DropDownProfile/DropDownProfile'
+import { Desplegable } from '../NochDesplegable/Desplegable'
+import { Desplegable01 } from '../NochDesplegable/Desplegable01';
+
 
 export const Header = () => {
 
   const [openProfile, setOpenProfile] = useState(false);
+  const [openDrop, setOpenDrop] = useState(false);
 
   return (
     <div className={css.container}>
+      <div onClick={() => setOpenDrop
+          ((prev) => !prev) }>
+        <Desplegable />
+      </div>
+      
       <div className={css.logo}> 
         <img src={LOGO2} alt="" />
         <span>Across Gaming</span>
-      </div>
-
-      {/* click Tester */}
+      </div>  
 
       <div className={css.right}>
         
@@ -39,6 +46,9 @@ export const Header = () => {
         
         {
           openProfile && <DropDownProfile />
+        }
+        {
+          openDrop && <Desplegable01 />
         }
         
       </div>

@@ -1,24 +1,24 @@
-.NavDesplegable img{
-    width: 30px;
-    height: 30px;
-}
-
 .NavDesplegable {
     width: 10%;
+    height: 20px;
     max-width: 1000px;
-    margin: auto;
-    position: sticky;
+    margin: 0 auto;
     justify-content: center;
-    transition: width 0.5s;
+    position: fixed;
+    left: 40%;
+    z-index: 1;
+    top: -10px;
+    
 }
 
 .NavDesplegable:hover{
-    width: 15%;
+    transition: 0.4s;
+    transform: scale(1.5);
+    cursor: pointer;
   
 }
 
 nav {
-    position: relative;
     background-color: black;
     margin-top: 20px;
     border-radius: 25px;
@@ -33,29 +33,47 @@ nav ul {
 
 nav > ul > li {
     float: left;
+    color: black;
+    padding: 0 40%;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    padding: 10px 20px;
-    padding-left: 450px;
+li:hover {
+    color: white;
 }
 
-nav > ul > li:hover div{
-    display: table;
+.MenuDropUl img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    padding-right: 10px;
 }
 
-/* Submenu */
-
-nav ul li div {
-    width: 100px;
+.MenuDrop {
+    background-color: #495579;
     position: absolute;
-    left: -125px;
-    background: #ccc;
-    box-sizing: border-box;
-    display: none;
     border-radius: 20px;
+    width: 280px;
+    font-size: 25px;
+    left: 38%;
+    top: 35px;
+    z-index: 2;
+    position: fixed;
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.408);
     
+}
+
+.MenuDropUl li {
+    list-style: none;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.MenuDropUl li:hover{
+    background-color: #395B64;
+}
+
+.MenuDropUl {
+    padding: 0;
+
 }
