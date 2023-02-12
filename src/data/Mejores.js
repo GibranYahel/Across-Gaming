@@ -11,49 +11,49 @@ export const topOfBest  = [{
     id: 0,
     name: 'Texture Packs',
     detail: 'Top de Texture Packs',
-    top: 'Seleccionar Top',
+    top: 'Visitar Packs',
     img: MINIATURA1
 },
 {
     id: 1,
     name: 'Shaders',
     detail: 'Top de Shaders',
-    top: 'Seleccionar Top',
+    top: 'Visitar Shaders',
     img: MINIATURA2
 },
 {
     id: 2,
     name: 'Servidores',
     detail: 'Top de Servers',
-    top: 'Seleccionar Top',
+    top: 'Visitar Servers',
     img: MINIATURA3
 },
 {
     id: 3,
     name: 'Mods',
     detail: 'Top de Mods',
-    top: 'Seleccionar Top',
+    top: 'Visitar Mods',
     img: MINIATURA4
 },
 {
     id: 4,
     name: 'Perfiles',
     detail: 'Top perfiles visitados',
-    top: 'Seleccionar Top',
+    top: 'Visitar Perfiles',
     img: MINIATURA5
 },
 {
     id: 5,
     name: 'Skins',
     detail: 'Top de Skins',
-    top: 'Seleccionar Top',
+    top: 'Visitar Skins',
     img: MINIATURA6
 },
 {
     id: 6,
     name: 'Capas',
     detail: 'Top de Capas',
-    top: 'Seleccionar Top',
+    top: 'Visitar Capas',
     img: MINIATURA7
 }
 ];

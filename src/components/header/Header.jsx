@@ -6,6 +6,7 @@ import FPerfil from '../../assets/imagen-minecraft.jpg'
 import { DropDownProfile } from '../DropDownProfile/DropDownProfile'
 import { Desplegable } from '../NochDesplegable/Desplegable'
 import { Desplegable01 } from '../NochDesplegable/Desplegable01';
+import { TextField } from '@mui/material'
 
 
 export const Header = () => {
@@ -13,11 +14,15 @@ export const Header = () => {
   const [openProfile, setOpenProfile] = useState(false);
   const [openDrop, setOpenDrop] = useState(false);
 
+
   return (
     <div className={css.container}>
       <div onClick={() => setOpenDrop
           ((prev) => !prev) }>
-        <Desplegable />
+
+          <div className={css.Desplegable}>
+            <Desplegable />
+          </div>
       </div>
       
       <div className={css.logo}> 
@@ -29,17 +34,19 @@ export const Header = () => {
         
         <div className={css.menu}> 
           <ul className={css.menu}>
-            <li><Link to="/perfil" >Perfil</Link></li>
             <li><Link to="/registrate">Registrate</Link></li>
             <li><Link to="/social">Social</Link></li>
-            <li><Link to="/partners">Partners</Link></li>
-            <li><Link to="/productos">Productos</Link></li>
             <li><Link to="/clicktester">click Tester</Link></li>
           </ul>
           <Outlet />
         </div>
 
-        <input type="text" className={css.search} placeholder="Minecraft" />
+        <TextField 
+          className={css.TextField}
+          label="Minecraft"
+          type="text"
+          placeholder='Recusrsos'
+        />
 
         <img className={css.FPerfil} src={FPerfil} onClick={() => setOpenProfile
           ((prev) => !prev) } />

@@ -1,7 +1,11 @@
 import React from 'react'
+import { Followers } from '../components/Followers/Followers'
 
 export const Productos = () => {
   return (
-    <div><h1>MODULO DE PRODUCTOS</h1></div>
+    <div>
+      <Followers />
+
+    </div>
   )
 }

@@ -11,6 +11,7 @@ import { Productos } from './pages/Productos';
 import { Registrate } from './pages/Registrate';
 import { Social } from './pages/Social';
 import { Clicktester } from './pages/Clicktester';
+import { Skins } from './pages/Skins';
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
           <Route path="/registrate" element={ <Registrate /> }/>
           <Route path="/social" element={ <Social /> }/>
           <Route path="/clicktester" element={ <Clicktester /> }/>
-
+          <Route path="/Skins" element={ <Skins /> }/>
         </Routes>
       </div>
     </Router>

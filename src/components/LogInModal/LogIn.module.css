@@ -1,0 +1,16 @@
+.ModalContainer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+}
+
+.LogContainer{
+    width: 400px;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    top: 300px;
+    left: 40%;
+    position: fixed;
+}

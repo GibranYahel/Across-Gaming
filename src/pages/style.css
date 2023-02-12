@@ -1,0 +1,42 @@
+.Perfil {
+    position: relative;
+    display: flex;
+}
+
+.Portada>:nth-child(1){
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 0px;
+    z-index: 1;
+}
+
+.Portada img{
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    z-index: 2;
+    top: -89px;
+}
+
+.Perfil-img>:nth-child(1){
+    border-radius: 15px;
+    border: 7px solid white;
+    position: absolute;
+    z-index: 3;
+    justify-content: center;
+    left: 300px;
+    top: 70px;
+    border-radius: 7px;
+    width: 260px;
+    height: 260px;
+}
+
+.Perfil-img>:nth-child(2){
+    position: absolute;
+    z-index: 4;
+    top: 317px;
+    left: 297px;
+    width: 280px;
+    height: 30px;
+}

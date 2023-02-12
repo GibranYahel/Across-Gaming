@@ -55,8 +55,8 @@ export const SliderTop = () => {
             </div>
 
             <div className={css.cardInfo}>
-            <h3>{item.detail}</h3>
-            <p>{item.top}</p>
+              <h3>{item.detail}</h3>
+              <p>{item.top}</p>
             </div>
           </div>
         ))}

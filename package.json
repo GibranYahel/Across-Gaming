@@ -20,7 +20,8 @@
     "react-image-comparison-slider": "^1.8.4",
     "react-router-dom": "^6.5.0",
     "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "three": "^0.148.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.24",
